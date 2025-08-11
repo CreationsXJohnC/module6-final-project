@@ -72,3 +72,5 @@ const Browse = () => {
         </body>
     );
 };
+
+export default Browse;
