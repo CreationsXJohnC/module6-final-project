@@ -1,4 +1,4 @@
-body {
+ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,197 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#home__page {
+  background-color: white;
+  background-image: url(./assets/Uptown_Theater,_Washington,_D.C.15084v.jpg);
+  position: relative;
+  height: 650px;
+  overflow-x: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+.movie__logo {
+  width: 175px;
+}
+
+.nav__bar {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav__links {
+  display: flex;
+  cursor: pointer;
+}
+
+.nav__link {
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 8px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: .1em;
+  font-size: 45px;
+  color: black;
+  padding-bottom: 55px;
+  padding-top: 25px;
+}
+
+h2 {
+  font-size: 25px;
+  color: black;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 5px;
+}
+
+button {
+  color: rgba(0, 0, 0, .87);
+  width: 100%;
+  max-width: 125px;
+  height: 30px;
+  font-size: 15px;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.header__description {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.searchBtn {
+  color: rgba(0, 0, 0, .87);
+  width: 100%;
+  max-width: 800px;
+  height: 60px;
+  font-size: 25px;
+  padding-left: 20px;
+  position: relative;
+  border-radius: 50px;
+
+}
+
+#search__movies {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 85px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search__nav {
+  color: black;
+  width: 100%;
+  max-width: 1200px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 55px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search__results {
+  padding: 20px 15px;
+  letter-spacing: .08em;
+  color: white;
+}
+
+.selectOptions {
+  color: rgba(0, 0, 0, .87);
+  width: 100%;
+  max-width: 200px;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+  position: relative;
+  border-radius: 50px;
+  margin: 20px 90px;
+  cursor: pointer;
+}
+
+main {
+  height: 3550px;
+  background-image: url(./assets/two\ tubs\ of\ popcorn.webp);
+}
+
+.movie {
+ width: 100%;
+ max-width: 500px;
+ margin: 10px 10px;
+}
+
+.footer__container {
+  padding: 56px 0;
+  background-image: url(./assets/11-Movie-Theater-Etiquette-Rules-Everyone-Should-Follow_FT_GettyImages-1401703029.jpg);
+}
+
+.row__column {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.footer__list {
+  margin: 35px 0 24px 0;
+}
+
+.footer__link {
+  padding: 0 15px;
+  color: white;
 }
