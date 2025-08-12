@@ -10,7 +10,7 @@ const Home = () => {
         <><div>Home</div>
             <nav>
                 <div className="nav__bar">
-                    <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt="" />
+                    <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt=""/>
                     <ul className="nav__links">
                         <li>
                             <Link href="#" className="nav__link">Home</Link>
@@ -30,7 +30,7 @@ const Home = () => {
                     <div className="row__column">
                         <a href="#">
                             <figure className="footer__logo">
-                                <img className="footer__logo--img" src="./assets/black white clean movie logo.png" alt=""> </img>
+                                <img className="footer__logo--img" src="./assets/black white clean movie logo.png" alt=""/>
                             </figure>
                         </a>
                         <div className="footer__list">
