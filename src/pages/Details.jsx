@@ -13,13 +13,13 @@ const Details = () => {
                     <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt=""/>
                     <ul className="nav__links">
                         <li>
-                            <Link href="#" className="nav__link">Home</Link>
+                            <Link to="/" href="#" className="nav__link">Home</Link>
                         </li>
                         <li>
-                            <Link href="#" className="nav__link">Browse</Link>
+                            <Link to="/browse" href="#" className="nav__link">Browse</Link>
                         </li>
                         <li>
-                            <Link href="#" className="nav__link">Details</Link>
+                            <Link to="/details" href="#" className="nav__link">Details</Link>
                         </li>
                     </ul>
                 </div>
@@ -63,9 +63,9 @@ const Details = () => {
                             </figure>
                         </a>
                         <div className="footer__list">
-                            <Link href="" className="footer__link">Home</Link>
-                            <Link href="" className="footer__link">Browse</Link>
-                            <Link href="" className="footer__link">Details</Link>
+                            <Link to="/" href="" className="footer__link">Home</Link>
+                            <Link to="/browse" href="" className="footer__link">Browse</Link>
+                            <Link to="/details" href="" className="footer__link">Details</Link>
                         </div>
                         <div className="footer__copyright">Copyright © 2025 Movie Entertainment</div>
                     </div>
