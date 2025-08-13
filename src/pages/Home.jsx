@@ -7,7 +7,7 @@ const Home = () => {
     }, []);
 
     return (
-        <><div>Home</div>
+        <div id="wrapper">
             <nav>
                 <div className="nav__bar">
                     <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt=""/>
@@ -24,7 +24,34 @@ const Home = () => {
                     </ul>
                 </div>
             </nav>
-
+            <section id="landing">
+            <header>
+                <div className="header__container">
+                    <div className="header__description">
+                        <h1>Earth's Largest Online Movie Library</h1>
+                        <h2>Find your favorite Movie in our Library</h2>
+                        <Link to="#features">
+                            <button className="btn">Browse Movies</button>
+                        </Link>
+                    </div>
+                    <figure className="header__img--wrapper">
+                        <img alt="" />
+                    </figure>
+                </div>
+            </header>
+            </section>
+            <section id="highlights">
+            <div className="container">
+                <div className="row">
+                    <h2 className="section__title">
+                        Why choose our Library?
+                    </h2>
+                    <div className="highlight__wrapper">
+                        
+                    </div>
+                </div>
+            </div>
+            </section>
             <footer>
                 <div className="footer__container">
                     <div className="row__column">
@@ -41,7 +68,8 @@ const Home = () => {
                         <div className="footer__copyright">Copyright © 2025 Movie Entertainment</div>
                     </div>
                 </div>
-            </footer></>
+            </footer>
+        </div>
 
     );
 };

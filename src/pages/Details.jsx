@@ -7,7 +7,7 @@ const Details = () => {
     }, []);
 
     return (
-        <><div>Details</div>
+        <div id="wrapper">
             <nav>
                 <div className="nav__bar">
                     <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt=""/>
@@ -24,7 +24,36 @@ const Details = () => {
                     </ul>
                 </div>
             </nav>
-
+            <div className="movie__container">
+                    <div className="row">
+                        <div className="movie__selected--top">
+                            <Link to="/movies" className="movie__link">
+                            </Link>
+                            <Link to="/movies" className="movie__link">
+                                <h2 className="movie__selected--title--top">Movies</h2>
+                            </Link>
+                        </div>
+                        <div className="movie__selected">
+                            <figure className="movie__selected--figure">
+                                <img src Movie url alt="" className="movie__selected--img" />
+                            </figure>
+                            <div className="movie__selected--description">
+                                <h2 className="movie__selected--title">Movie title</h2>
+                            </div>
+                            <div className="movie__summary">
+                                <h3 className="movie__summary--title">
+                                    Summary
+                                </h3>
+                                <p className="movie__summary--para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi temporibus culpa ut rem architecto vitae porro doloribus. Sint, quidem! Fugiat incidunt dignissimos labore a odit sint, aperiam ea sed dicta.
+                                </p>
+                                <p className="movie__summary--para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi temporibus culpa ut rem architecto vitae porro doloribus. Sint, quidem! Fugiat incidunt dignissimos labore a odit sint, aperiam ea sed dicta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <footer>
                 <div className="footer__container">
                     <div className="row__column">
@@ -41,7 +70,8 @@ const Details = () => {
                         <div className="footer__copyright">Copyright © 2025 Movie Entertainment</div>
                     </div>
                 </div>
-            </footer></>
+            </footer>
+        </div>
     );
 };
 
