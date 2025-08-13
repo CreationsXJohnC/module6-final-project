@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import blackWhiteLogo from "../assets/black white clean movie logo-removebg.png";
+import originalLogo from "../assets/black white clean movie logo.png";
 
 const Details = () => {
     useEffect(() => {
@@ -10,7 +12,7 @@ const Details = () => {
         <div id="wrapper">
             <nav>
                 <div className="nav__bar">
-                    <img className="movie__logo" src="./assets/black white clean movie logo-removebg.png" alt=""/>
+                    <img className="movie__logo" src={blackWhiteLogo} alt=""/>
                     <ul className="nav__links">
                         <li>
                             <Link to="/" href="#" className="nav__link">Home</Link>
@@ -35,7 +37,7 @@ const Details = () => {
                         </div>
                         <div className="movie__selected">
                             <figure className="movie__selected--figure">
-                                <img src Movie url alt="" className="movie__selected--img" />
+                                <img alt="" className="movie__selected--img" />
                             </figure>
                             <div className="movie__selected--description">
                                 <h2 className="movie__selected--title">Movie title</h2>
@@ -59,7 +61,7 @@ const Details = () => {
                     <div className="row__column">
                         <a href="#">
                             <figure className="footer__logo">
-                                <img className="footer__logo--img" src="./assets/black white clean movie logo.png" alt=""/>
+                                <img className="footer__logo--img" src={originalLogo} alt=""/>
                             </figure>
                         </a>
                         <div className="footer__list">
