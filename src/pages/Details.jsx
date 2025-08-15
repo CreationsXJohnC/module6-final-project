@@ -8,6 +8,8 @@ const Details = () => {
         window.scrollTo(0, 0);
     }, []);
 
+    https://www.omdbapi.com/?apikey=6ceac7f0&i=tt15398776
+
     return (
         <div id="wrapper">
             <nav>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import blackWhiteLogo from "../assets/black white clean movie logo-removebg.png";
 import originalLogo from "../assets/black white clean movie logo.png";
+import { Zap } from "lucide-react";
 
 const Home = () => {
     useEffect(() => {
@@ -49,6 +50,7 @@ const Home = () => {
                         Why choose our Library?
                     </h2>
                     <div className="highlight__wrapper">
+                        <Zap />
                         <h3 className="highlight__wrapper--title1">Easy & Quick</h3>
                             <p>Search our library and find your film instantly.</p>
                         <h3 className="highlight__wrapper--title2">10,000+ Movies</h3>

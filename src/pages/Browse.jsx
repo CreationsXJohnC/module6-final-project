@@ -30,6 +30,10 @@ const Browse = () => {
   }
 
   useEffect(() => {
+    console.log(moviesArr)
+  }, [moviesArr]);
+
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
@@ -101,7 +105,7 @@ const Browse = () => {
                   <img src={movie.Poster} alt="" />
                   <h2>{movie.Year}</h2>
                   <h4>{movie.Title}</h4>
-                  <button>Learn More</button>
+                  <Link to={`/details/${movie.imdbID}`}><button>Learn More</button></Link>
                 </div>
               ))}
           </div>
