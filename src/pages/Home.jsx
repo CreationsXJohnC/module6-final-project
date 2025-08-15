@@ -50,11 +50,13 @@ const Home = () => {
                         Why choose our Library?
                     </h2>
                     <div className="highlight__wrapper">
-                        <Zap />
+                            <Zap />
                         <h3 className="highlight__wrapper--title1">Easy & Quick</h3>
                             <p>Search our library and find your film instantly.</p>
+                            <Film />
                         <h3 className="highlight__wrapper--title2">10,000+ Movies</h3>
                             <p>We have all kinds & genres of titles to choose from.</p>
+                            <Rss />
                         <h3 className="highlight__wrapper--title3">Updated Information</h3>
                             <p>Our library is constatnly updated with newly released films.</p>
                     </div>
