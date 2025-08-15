@@ -49,21 +49,21 @@ const Home = () => {
                     <div className="highlight__wrapper">
                         <div className="highlight-1">
                             <div className="highlight--icon">
-                            <Zap />
+                            <Zap className="highlight--icon2" />
                             </div>
                         <h3 className="highlight__wrapper--title1">Easy & Quick</h3>
                             <p className="highlight__text">Search our library and find your film instantly.</p>
                         </div>
                         <div className="highlight-2">
                             <div className="highlight--icon">
-                            <Film />
+                            <Film className="highlight--icon2" />
                             </div>
                         <h3 className="highlight__wrapper--title2">10,000+ Movies</h3>
                             <p className="highlight__text">We have all kinds & genres of titles to choose from.</p>
                         </div>
                         <div className="highlight-3">
                             <div className="highlight--icon">
-                            <Rss />
+                            <Rss className="highlight--icon2" />
                             </div>
                         <h3 className="highlight__wrapper--title3">Updated Information</h3>
                             <p className="highlight__text">Our library is constatnly updated with newly released films.</p>
