@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import blackWhiteLogo from "../assets/black white clean movie logo-removebg.png";
 import originalLogo from "../assets/black white clean movie logo.png";
-import { Zap } from "lucide-react";
+import { Film, Rss, Zap } from "lucide-react";
 
 const Home = () => {
     useEffect(() => {

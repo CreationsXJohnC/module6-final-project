@@ -101,7 +101,7 @@ const Browse = () => {
               })
               .slice(0, 6)
               .map((movie) => (
-                <div class="movie">
+                <div className="movie">
                   <img src={movie.Poster} alt="" />
                   <h2>{movie.Year}</h2>
                   <h4>{movie.Title}</h4>

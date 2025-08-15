@@ -5,7 +5,7 @@ import originalLogo from "../assets/black white clean movie logo.png";
 import axios from "axios";
 
 const Details = () => {
-    const [ moiveDetails, setMovieDetails ] = useState([])
+    const [ movieDetails, setMovieDetails ] = useState([])
     const {imdbID} = useParams()
     async function main() {
     const response = await axios.get(`https://www.omdbapi.com/?apikey=6ceac7f0&i=${imdbID}`)
@@ -41,26 +41,24 @@ const Details = () => {
                     <div className="row">
                         <div className="movie__selected">
                             <figure className="movie__selected--figure">
-                                <img alt="" className="movie__selected--img" 
-                                    {moiveDetails.Poster}
-                                />
+                                <img alt="" className="movie__selected--img" /> {movieDetails.Poster}
                             </figure>
                             <div className="movie__selected--description">
-                                <h3 className="movie__selected--title">Movie Title: {moiveDetails.Title}</h3>
-                                <h3 className="movie__selected--title">Movie Year: {moiveDetails.Year}</h3>
+                                <h3 className="movie__selected--title">Movie Title: {movieDetails.Title}</h3>
+                                <h3 className="movie__selected--title">Movie Year: {movieDetails.Year}</h3>
                             </div>
                             <div className="movie__summary">
                                 <h3 className="movie__summary--title">
                                     Summary/Description
                                 </h3>
                                 <p className="movie__summary--para">
-                                    {moiveDetails.Plot}
+                                    {movieDetails.Plot}
                                 </p>
                                 <h3 className="movie__summary--title">
-                                    Rating: {moiveDetails.Ratings}
+                                    Rating: {movieDetails.Ratings}
                                 </h3>
                                 <p className="movie__summary--para">
-                                    {moiveDetails.Awards}
+                                    {movieDetails.Awards}
                                 </p>
                             </div>
                         </div>
