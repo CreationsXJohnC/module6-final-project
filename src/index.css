@@ -350,6 +350,7 @@ main {
 
 .movie__summary {
   padding: 32px;
+  background-color: rgba(0, 0, 0, 0.811);
 }
 
 .movie__selected--title1 {
@@ -384,7 +385,7 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 400px;
-  color: red;
+  color: white;
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -398,8 +399,8 @@ main {
 }
 
 .movie__selected--img {
-  max-width: 500px;
-  padding: 28px 12px;
+  max-width: 700px;
+  padding: 12px 12px;
 }
 
 .movie__selected--description {
