@@ -198,7 +198,7 @@ main {
   background-color: white;
   background-image: url(./assets/Striped-box-with-popcorn-869302366_1256x838.jpeg);
   position: relative;
-  height: 500px;
+  height: 550px;
   overflow-x: hidden;
   width: 100%;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ main {
 }
 
 .header__description--btn {
-  color: rgba(0, 0, 0, .87);
+  color: red;
   width: 100%;
   max-width: 125px;
   height: 30px;
@@ -250,12 +250,34 @@ main {
   padding-top: 25px;
 }
 
+.highlight__row {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.highlight__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .highlight__wrapper--title1 {
   align-items: center;
   display: flex;
   flex-direction: column;    
   padding: 0 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.highlight-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
   width: 33.33333%;
+  margin-bottom: 40px;
 }
 
 .highlight__wrapper--title2 {
@@ -263,7 +285,17 @@ main {
   display: flex;
   flex-direction: column;    
   padding: 0 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.highlight-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
   width: 33.33333%;
+  margin-bottom: 40px;
 }
 
 .highlight__wrapper--title3 {
@@ -271,11 +303,42 @@ main {
   display: flex;
   flex-direction: column;    
   padding: 0 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.highlight-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
   width: 33.33333%;
+  margin-bottom: 40px;
+}
+
+.highlight__text {
+  text-align: center;
+  font-weight: 350;
+  font-style: italic;
+  max-width: 250px;
+  padding-top: 5px;
+}
+
+.highlight--icon {
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 4px;
+  color: red;
+  display: flex;
+  font-size: 50px;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: 12px;
+  width: 100px;
 }
 
 #movie__details {
-  background-color: white;
+  background-color: black;
   background-image: url(./assets/180319104840-immersive-theater-tease.jpg);
   position: relative;
   height: 600px;
@@ -285,26 +348,62 @@ main {
   background-size: cover;
 }
 
-.movie__selected--title {
-  align-items: center;
+.movie__summary {
+  padding: 32px;
+}
+
+.movie__selected--title1 {
   display: flex;
   flex-direction: column;
-  color: red;  
+  color: red;
+  margin-bottom: 10px;
+  max-width: 500px;
+  padding: 5px;
+  -webkit-text-stroke: .75px #ffffff;
+}
+
+.movie__selected--title2 {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  margin-bottom: 10px;
+  max-width: 230px;
+  padding: 5px;
+  -webkit-text-stroke: .75px #ffffff;
 }
 
 .movie__summary--title {
-  align-items: center;
   display: flex;
   flex-direction: column;
   color: red;
+  margin-top: 10px;
+  -webkit-text-stroke: .75px #ffffff;
 }
 
 .movie__summary--para {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 400px;
   color: red;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.movie__selected {
+  align-items: center;
+  padding: 24px 24px;
+  display: flex;
+  margin-left: 110px;
+  margin-top: 35px;
+}
+
+.movie__selected--img {
+  max-width: 500px;
+  padding: 28px 12px;
+}
+
+.movie__selected--description {
+  font-size: 20px;
 }
 
 

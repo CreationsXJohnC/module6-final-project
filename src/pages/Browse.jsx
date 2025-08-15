@@ -58,11 +58,6 @@ const Browse = () => {
                   Browse
                 </Link>
               </li>
-              <li>
-                <Link to="/details" href="#" className="nav__link">
-                  Details
-                </Link>
-              </li>
             </ul>
           </div>
         </nav>
@@ -129,9 +124,6 @@ const Browse = () => {
               </Link>
               <Link to="/browse" href="" className="footer__link">
                 Browse
-              </Link>
-              <Link to="/details" href="" className="footer__link">
-                Details
               </Link>
             </div>
             <div className="footer__copyright">

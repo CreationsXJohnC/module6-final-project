@@ -21,9 +21,6 @@ const Home = () => {
                         <li>
                             <Link to="/browse" href="#" className="nav__link">Browse</Link>
                         </li>
-                        <li>
-                            <Link to="/details" href="#" className="nav__link">Details</Link>
-                        </li>
                     </ul>
                 </div>
             </nav>
@@ -45,20 +42,32 @@ const Home = () => {
             </section>
             <section id="highlights">
             <div className="container">
-                <div className="row">
+                <div className="highlight__row">
                     <h2 className="section__title">
                         Why choose our Library?
                     </h2>
                     <div className="highlight__wrapper">
+                        <div className="highlight-1">
+                            <div className="highlight--icon">
                             <Zap />
+                            </div>
                         <h3 className="highlight__wrapper--title1">Easy & Quick</h3>
-                            <p>Search our library and find your film instantly.</p>
+                            <p className="highlight__text">Search our library and find your film instantly.</p>
+                        </div>
+                        <div className="highlight-2">
+                            <div className="highlight--icon">
                             <Film />
+                            </div>
                         <h3 className="highlight__wrapper--title2">10,000+ Movies</h3>
-                            <p>We have all kinds & genres of titles to choose from.</p>
+                            <p className="highlight__text">We have all kinds & genres of titles to choose from.</p>
+                        </div>
+                        <div className="highlight-3">
+                            <div className="highlight--icon">
                             <Rss />
+                            </div>
                         <h3 className="highlight__wrapper--title3">Updated Information</h3>
-                            <p>Our library is constatnly updated with newly released films.</p>
+                            <p className="highlight__text">Our library is constatnly updated with newly released films.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,7 +83,6 @@ const Home = () => {
                         <div className="footer__list">
                             <Link to="/" href="" className="footer__link">Home</Link>
                             <Link to="/browse" href="" className="footer__link">Browse</Link>
-                            <Link to="/details" href="" className="footer__link">Details</Link>
                         </div>
                         <div className="footer__copyright">Copyright © 2025 Movie Entertainment</div>
                     </div>
