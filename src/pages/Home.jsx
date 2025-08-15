@@ -26,14 +26,14 @@ const Home = () => {
                     </ul>
                 </div>
             </nav>
-            <section id="landing">
+            <section id="landing__page">
             <header>
                 <div className="header__container">
                     <div className="header__description">
-                        <h1>The World's Largest Online Movie Library</h1>
+                        <h1 className="header__description--title">The World's Largest Online Movie Library</h1>
                         <h2>Find your favorite Movie!</h2>
                         <Link to="/browse">
-                            <button className="btn">Browse Movies</button>
+                            <button className="header__description--btn">Browse Movies</button>
                         </Link>
                     </div>
                     <figure className="header__img--wrapper">
@@ -49,7 +49,12 @@ const Home = () => {
                         Why choose our Library?
                     </h2>
                     <div className="highlight__wrapper">
-                        
+                        <h3 className="highlight__wrapper--title1">Easy & Quick</h3>
+                            <p>Search our library and find your film instantly.</p>
+                        <h3 className="highlight__wrapper--title2">10,000+ Movies</h3>
+                            <p>We have all kinds & genres of titles to choose from.</p>
+                        <h3 className="highlight__wrapper--title3">Updated Information</h3>
+                            <p>Our library is constatnly updated with newly released films.</p>
                     </div>
                 </div>
             </div>

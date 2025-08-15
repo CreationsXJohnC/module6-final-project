@@ -28,7 +28,7 @@ body {
   background-color: white;
   background-image: url(./assets/Uptown_Theater,_Washington,_D.C.15084v.jpg);
   position: relative;
-  height: 650px;
+  height: 600px;
   overflow-x: hidden;
   width: 100%;
   background-repeat: no-repeat;
@@ -94,17 +94,6 @@ h4 {
   font-weight: 600;
   color: black;
   padding-bottom: 5px;
-}
-
-button {
-  color: rgba(0, 0, 0, .87);
-  width: 100%;
-  max-width: 125px;
-  height: 30px;
-  font-size: 15px;
-  position: relative;
-  border-radius: 50px;
-  cursor: pointer;
 }
 
 .header__description {
@@ -204,3 +193,119 @@ main {
   padding: 0 15px;
   color: white;
 }
+
+#landing__page {
+  background-color: white;
+  background-image: url(./assets/Striped-box-with-popcorn-869302366_1256x838.jpeg);
+  position: relative;
+  height: 500px;
+  overflow-x: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing__page--img {
+  opacity: .80;
+}
+
+.header__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__description--title {
+  text-align: center;
+}
+
+.header__description h1 {
+  font-size: 45px;
+}
+
+.header__description h2 {
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+.header__description--btn {
+  color: rgba(0, 0, 0, .87);
+  width: 100%;
+  max-width: 125px;
+  height: 30px;
+  font-size: 15px;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: black;
+  padding-bottom: 55px;
+  padding-top: 25px;
+}
+
+.highlight__wrapper--title1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
+  width: 33.33333%;
+}
+
+.highlight__wrapper--title2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
+  width: 33.33333%;
+}
+
+.highlight__wrapper--title3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;    
+  padding: 0 24px;
+  width: 33.33333%;
+}
+
+#movie__details {
+  background-color: white;
+  background-image: url(./assets/180319104840-immersive-theater-tease.jpg);
+  position: relative;
+  height: 600px;
+  overflow-x: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie__selected--title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: red;  
+}
+
+.movie__summary--title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+
+.movie__summary--para {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  color: red;
+}
+
+
+
